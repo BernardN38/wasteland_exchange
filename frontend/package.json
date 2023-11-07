@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --config ./src/vite.config.ts",
+    "build": "tsc && vite build --config ./src/vite.config.ts    ",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^21.0.0",
+    "@types/three": "^0.158.1",
+    "three": "^0.158.0"
+  }
+}
